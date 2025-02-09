@@ -54,6 +54,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "BeSocial",
+    description:
+      "I built a MERN stack project with a social media-like UI, enabling users to perform CRUD operations on users and posts, follow/unfollow users, and connect frontend with backend via a server.",
+    tags: ["React.js", "MongoDB", "Node.js", "Express.js"],
+    imageUrl: besocial,
+  },
+  {
     title: "Africasia Seeds",
     description:
       "I worked as a Frontend developer on this project for 6 months. The website was about seeds. It has features like adding seeds, displaying seeds and information.",
@@ -66,13 +73,6 @@ export const projectsData = [
       "E-commerce platform for selling the electic products. I was the Frontend developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "JavaScript", "Next.js", "React Bootstrap",],
     imageUrl: unity,
-  },
-  {
-    title: "BeSocial",
-    description:
-      "I built a MERN stack project with a social media-like UI, enabling users to perform CRUD operations on users and posts, follow/unfollow users, and connect frontend with backend via a server.",
-    tags: ["React.js", "MongoDB", "Node.js", "Express.js"],
-    imageUrl: besocial,
   },
 ] as const;
 
