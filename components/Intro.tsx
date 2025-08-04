@@ -88,6 +88,7 @@ export default function Intro() {
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="/SagarGound_FrontendDeveloper.docx"
           download={false}
+          aria-label="Download Resume"
         >
           Download Resume
           <HiDownload className="opacity-60 group-hover:translate-x-1 transition" />
@@ -97,6 +98,7 @@ export default function Intro() {
           href="https://www.linkedin.com/in/sagar-gound-5745201bb/"
           target="_blank"
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          aria-label="LinkedIn Profile"
         >
           <BsLinkedin />
         </a>
@@ -105,6 +107,7 @@ export default function Intro() {
           href="https://github.com/Sagar-Gound"
           target="_blank"
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition cursor-pointer borderBlack text-[1.35rem] dark:bg-white/10 dark:text-white/60"
+          aria-label="GitHub Profile"
         >
           <FaGithubSquare />
         </a>
